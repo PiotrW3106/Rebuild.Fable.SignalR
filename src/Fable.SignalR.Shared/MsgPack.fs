@@ -18,15 +18,18 @@ module MsgPackProtocol =
     let [<Literal>] private ProtocolVersion = 1
     let [<Literal>] private MaxPayloadSize = 2147483648L
 
-    let private streamManager = 
-        RecyclableMemoryStreamManager(
-            #if DEBUG
-            GenerateCallStacks = true,
-            ThrowExceptionOnToArray = true,
-            #endif
+    // let private streamManager = 
+    //     RecyclableMemoryStreamManager(
+    //         #if DEBUG
+    //         GenerateCallStacks = true,
+    //         ThrowExceptionOnToArray = true,
+    //         #endif
 
-            AggressiveBufferReturn = true
-        )
+    //         //AggressiveBufferReturn = true
+    //     )
+
+    let private streamManager = 
+        RecyclableMemoryStreamManager( )  
 
     [<AutoOpen>]
     module private MsgHelpers =

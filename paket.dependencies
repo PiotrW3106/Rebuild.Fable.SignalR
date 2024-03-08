@@ -1,16 +1,19 @@
 source https://api.nuget.org/v3/index.json
 storage: none
+redirects: on
 
-nuget Elmish
-nuget Fable.Elmish
-nuget Fable.Promise
-nuget Fable.SimpleJson
-nuget Feliz
-nuget FSharp.Core
-nuget Fable.Core
-nuget Fable.Remoting.Json
-nuget Fable.Remoting.MsgPack
-nuget Microsoft.AspNetCore.SignalR.Client
-nuget Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson
-nuget Microsoft.IO.RecyclableMemoryStream
-nuget Saturn
+nuget Elmish ~> 4.1
+nuget Fable.Elmish ~> 4.1
+nuget Fable.Promise ~> 3.2
+nuget Fable.SimpleJson ~> 3.24
+nuget Feliz ~> 2.7
+nuget FSharp.Core ~> 8.0
+nuget Fable.Core ~> 4.3
+nuget Fable.Remoting.Json ~> 2.23
+nuget Fable.Remoting.MsgPack ~> 1.18
+nuget Microsoft.AspNetCore.SignalR.Client ~> 8.0
+nuget Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson ~> 8.0
+nuget Microsoft.IO.RecyclableMemoryStream ~> 3.0
+nuget Saturn ~> 0.16
+
+nuget Microsoft.IdentityModel.JsonWebTokens ~> 7.1
