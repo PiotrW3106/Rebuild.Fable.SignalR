@@ -13,7 +13,7 @@
     "url": "https://github.com/Shmew/Fable.SignalR"
   },
   "dependencies": {
-    "@microsoft/signalr": "^7"
+    "@microsoft/signalr": "^8"
   },
   "private": true
 }
