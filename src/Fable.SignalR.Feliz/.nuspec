@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Metadata elements go here. -->
+  </metadata>
+  <files>
+    <file src="src\**\*.fs" target="contentFiles\any\any\" />
+  </files>
+</package>

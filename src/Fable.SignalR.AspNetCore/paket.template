@@ -1,3 +1,3 @@
 type project
 version 1.1.0
-id Rebuild.Fable.SignalR.AspNetCore
+id Fable.SignalR.AspNetCore

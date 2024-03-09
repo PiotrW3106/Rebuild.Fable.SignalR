@@ -1,3 +1,8 @@
 type project
 version 1.1.0
-id Rebuild.Fable.SignalR.Saturn
+id Fable.SignalR.Saturn
+
+
+files
+    *.fs ==> fable
+    *.fsproj ==> fable

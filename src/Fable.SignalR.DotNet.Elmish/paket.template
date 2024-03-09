@@ -1,3 +1,9 @@
 type project
 version 1.1.0
-id Rebuild.Fable.SignalR.DotNet.Elmish
+id Fable.SignalR.DotNet.Elmish
+
+
+
+files
+    *.fs ==> fable
+    *.fsproj ==> fable

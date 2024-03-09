@@ -16,3 +16,14 @@ To pack the repo run:
 dotnet pack --include-source
 ls -r src/*.nupkg | mv -Destination nupkgs/ -Force
 ```
+For me the above command did not work as the sources needed to in a "fable" directory in the package. 
+
+Note: Fable 4 requires the "sources" in the nuget packages to build your project if you include them.
+
+Update the version number in package.template in each subproject. 
+
+The run command similar to: 
+dotnet paket pack ./nupkgs/  --include-referenced-projects --release-notes "Upgraded to .net8 and made minor correction to file path"
+
+NOTE: use the updates at your own risk as not fully tested.
+
